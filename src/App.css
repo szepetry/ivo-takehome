@@ -1,0 +1,44 @@
+.contract {
+  font-family: 'Helvetica Neue', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+.clause-block {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.clause-number {
+  flex-shrink: 0;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.clause-content {
+  flex: 1;
+}
+
+.mention {
+  padding: 0 2px;
+  border-radius: 2px;
+}
